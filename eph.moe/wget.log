@@ -1,0 +1,24 @@
+--2026-09-16 23:05:43--  https://eph.moe/
+Resolving eph.moe (eph.moe)... 198.18.0.66
+Connecting to eph.moe (eph.moe)|198.18.0.66|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘eph.moe/eph.moe/index.html’
+
+     0K .......... ..                                           387K=0.03s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:05:44 (387 KB/s) - ‘eph.moe/eph.moe/index.html’ saved [13001]
+
+--2026-09-16 23:05:44--  https://resource.epheia.moe/css/style-v4.css
+Resolving resource.epheia.moe (resource.epheia.moe)... 198.18.0.76
+Connecting to resource.epheia.moe (resource.epheia.moe)|198.18.0.76|:443... connected.
+HTTP request sent, awaiting response... 526 <none>
+2026-09-16 23:05:45 ERROR 526: <none>.
+
+FINISHED --2026-09-16 23:05:45--
+Total wall clock time: 2.6s
+Downloaded: 1 files, 13K in 0.03s (387 KB/s)
+Converting links in eph.moe/eph.moe/index.html... 3.
+0-3
+Converted links in 1 files in 0.006 seconds.

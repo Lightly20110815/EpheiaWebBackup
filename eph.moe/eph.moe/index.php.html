@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epheia 的短链接</title>
+    <link rel="stylesheet" href="../resource.epheia.moe/css/style-v4.css">
+    <style>
+        /* 主页特定增强样式 */
+        .page-index {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: var(--space-xl) var(--space-lg);
+        }
+        
+        /* 主标题动画 */
+        .main-title {
+            font-size: 3.5rem;
+            text-align: center;
+            margin-bottom: var(--space-lg);
+            color: var(--color-primary);
+            text-shadow: 0 2px 10px rgba(255, 105, 180, 0.3);
+            animation: titleFloat 4s ease-in-out infinite;
+            position: relative;
+        }
+        
+        .main-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+            border-radius: 2px;
+        }
+        
+        @keyframes titleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        /* 欢迎文本 */
+        .welcome-text {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-xl);
+            max-width: 600px;
+            line-height: 1.8;
+        }
+        
+        /* 主搜索卡片 */
+        .main-search-card {
+            background: var(--color-bg-glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            padding: var(--space-xl);
+            max-width: 700px;
+            width: 100%;
+            margin-bottom: var(--space-xl);
+            transition: all var(--transition-fast);
+        }
+        
+        .main-search-card:hover {
+            backdrop-filter: blur(25px);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px var(--color-shadow);
+        }
+        
+        /* 搜索表单 */
+        .search-form {
+            display: flex;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-md);
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: var(--space-md) var(--space-lg);
+            background: var(--color-bg-dark);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            color: var(--color-text);
+            font-size: 1.1rem;
+            font-family: var(--font-sans);
+            transition: all var(--transition-fast);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.1);
+            background: var(--color-bg-dark-hover);
+        }
+        
+        .search-btn {
+            padding: var(--space-md) var(--space-xl);
+            background: var(--color-bg-glass);
+            border: 1px solid var(--color-primary);
+            border-radius: var(--radius-md);
+            color: var(--color-primary);
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            backdrop-filter: blur(10px);
+        }
+        
+        .search-btn:hover {
+            background: rgba(255, 105, 180, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+        }
+        
+        /* 示例链接部分 */
+        .example-links {
+            margin-top: var(--space-xl);
+            text-align: center;
+        }
+        
+        .example-title {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-sm);
+        }
+        
+        .example-title::before,
+        .example-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--color-border), transparent);
+        }
+        
+        .example-grid {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .example-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-sm) var(--space-md);
+            background: var(--color-bg-dark);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            color: var(--color-text);
+            text-decoration: none;
+            transition: all var(--transition-fast);
+            font-size: 0.95rem;
+        }
+        
+        .example-link:hover {
+            background: var(--color-bg-dark-hover);
+            border-color: var(--color-primary);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .example-link::before {
+            content: '🔗';
+            font-size: 0.9em;
+        }
+        
+        /* 联系信息 */
+        .contact-info {
+            position: fixed;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+            z-index: 100;
+            background: var(--color-bg-dark);
+            padding: var(--space-sm) var(--space-md);
+            border-radius: var(--radius-md);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--color-border);
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .main-search-card {
+                padding: var(--space-lg);
+            }
+            
+            .search-form {
+                flex-direction: column;
+            }
+            
+            .search-btn {
+                width: 100%;
+            }
+            
+            .example-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .contact-info {
+                position: static;
+                transform: none;
+                margin-top: var(--space-xl);
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .main-title {
+                font-size: 2rem;
+            }
+            
+            .welcome-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="page-index">
+    <!-- 导航栏 -->
+    <nav class="glass">
+        <h1>Epheia 的短链接</h1>
+        <ul>
+            <li><a href="https://yi.fo/about/" target="_blank">关于此页面</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main class="flex flex-col items-center justify-center" style="flex: 1; padding-top: var(--space-xl);">
+        <!-- 主标题 -->
+        <h1 class="main-title">Epheia 的短链接</h1>
+        
+        <!-- 欢迎文本 -->
+        <p class="welcome-text">
+            Yi.fo — Yuri forever — Epheia的个人短链接服务<br>
+            在下方的输入框中输入短码即可访问对应链接
+        </p>
+        
+        <!-- 主搜索卡片 -->
+        <div class="main-search-card">
+            <!-- 搜索表单 -->
+            <form method="POST" class="search-form" id="searchForm">
+                <input 
+                    type="text" 
+                    name="short_code" 
+                    class="search-input" 
+                    placeholder="输入短码或完整短链接（例如：yi.fo/test）..." 
+                    required 
+                    autofocus
+                    id="searchInput">
+                <button type="submit" class="search-btn">
+                    前往
+                </button>
+            </form>
+            
+            <!-- 示例链接 -->
+            <div class="example-links">
+                <div class="example-title">试试这些链接</div>
+                <div class="example-grid">
+                                        <a href="https://yi.fo/server" class="example-link" target="_blank">
+                        云服务器优惠                    </a>
+                                        <a href="https://yi.fo/me" class="example-link" target="_blank">
+                        个人介绍                    </a>
+                                    </div>
+            </div>
+        </div>
+        
+        <!-- 联系信息 -->
+        <div class="contact-info">
+            如有疑问，请联系 <a href="https://eph.moe/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5d2c0c7d6ccd1c0e5c0d5cdc0ccc48bc8cac0">[email&#160;protected]</a>
+        </div>
+    </main>
+
+    <!-- 底部Dock栏 -->
+    <footer>
+        <div class="footer-content">
+            <div class="flex items-center gap-md">
+                <a href="login.php.html" class="btn btn-small">
+                    🔐 管理员登录
+                </a>
+            </div>
+            <div class="text-sm" style="color: var(--color-text-secondary);">
+                Yi.fo 短链接服务
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // 装饰性JavaScript - 增强用户体验
+        document.addEventListener('DOMContentLoaded', function() {
+            // 搜索输入框自动聚焦和动画
+            const searchInput = document.getElementById('searchInput');
+            const searchForm = document.getElementById('searchForm');
+            
+            // 页面加载动画
+            const elements = [
+                document.querySelector('.main-title'),
+                document.querySelector('.welcome-text'),
+                document.querySelector('.main-search-card'),
+                document.querySelector('footer')
+            ].filter(el => el !== null);
+            
+            elements.forEach((element, index) => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                
+                setTimeout(() => {
+                    element.style.transition = 'all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)';
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+            
+            // 键盘快捷键支持
+            document.addEventListener('keydown', function(e) {
+                // Ctrl/Cmd + K 聚焦搜索框
+                if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                    e.preventDefault();
+                    searchInput.focus();
+                }
+                
+                // ESC 清除搜索框
+                if (e.key === 'Escape') {
+                    searchInput.value = '';
+                    searchInput.blur();
+                }
+                
+                // Enter 提交表单（如果输入框有焦点）
+                if (e.key === 'Enter' && document.activeElement === searchInput) {
+                    if (searchInput.value.trim()) {
+                        searchForm.submit();
+                    }
+                }
+            });
+            
+            // 输入框聚焦效果
+            searchInput.addEventListener('focus', function() {
+                searchForm.parentElement.style.transform = 'scale(1.02)';
+            });
+            
+            searchInput.addEventListener('blur', function() {
+                searchForm.parentElement.style.transform = 'scale(1)';
+            });
+            
+            // 自动补全提示
+            const examples = ['test', 'server', 'txt', 'demo'];
+            let exampleIndex = 0;
+            
+            function rotateExample() {
+                searchInput.placeholder = `输入短码或完整短链接（例如：yi.fo/${examples[exampleIndex]}）...`;
+                exampleIndex = (exampleIndex + 1) % examples.length;
+            }
+            
+            // 每3秒切换一次示例
+            setInterval(rotateExample, 3000);
+            
+            // 页面加载后开始
+            setTimeout(rotateExample, 1000);
+        });
+    </script>
+</body>
+</html>

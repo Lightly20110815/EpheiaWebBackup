@@ -1,0 +1,79 @@
+# =============================================================================
+# 站点配置
+# =============================================================================
+# 此文件包含本站所有可配置内容。修改后刷新页面即可生效，无需构建。
+# 格式说明见 README.md。
+
+# ---------------------------------------------------------------------------
+# 主页 (index.html) 配置
+# ---------------------------------------------------------------------------
+site:
+  font: "./renderer/assets/font.woff2"
+
+  profile:
+    title: "desuwa.org"
+    avatar: "./assets/avatar.webp"
+    aliases:
+      - label: "@Epheia"
+        tooltip: "你好~ 我是Epheia"
+        copy: "Epheia"
+      - label: "/ @Epheiamoe"
+        tooltip: "Github的ID: epheiamoe"
+        copy: "Epheiamoe"
+      - label: "/ nyaepheia"
+        tooltip: "X(Twitter)的ID: nyaepheia"
+        copy: "nyaepheia"
+
+  about:
+    heading: "关于我"
+    bio: "你好～ 这里是 Epheia，也可以叫我<span class='font-semibold text-purple-400'>依菲雅</span>，<span class='font-semibold text-pink-400'>喜欢和善良的人交朋友。</span>"
+    tags:
+      - text: "mtf/x"
+        copy: "mtf/x"
+      - text: "🎂 5-12"
+        copy: "5-12"
+
+  portals:
+    heading: "传送门"
+    items:
+      - title: "本小姐的博客"
+        desc: "似乎什么都没有, 会分享些什么呢?"
+        url: "https://watakushi.desuwa.org/"
+        icon: "fa-solid fa-house-chimney"
+      - title: "LGBTQIA+ 骄傲旗帜"
+        desc: "一个为爱制作的小工具"
+        url: "./flag/"
+        icon: "fa-solid fa-rainbow"
+      - title: "AI bsky"
+        desc: "你的 Bluesky，AI 加持。"
+        url: "https://ai-bsky.pages.dev"
+        icon: "fa-solid fa-terminal"
+      - title: "2345.desuwa.org"
+        desc: "跨性别资源搜索引擎"
+        url: "https://2345.desuwa.org"
+        icon: "fa-solid fa-magnifying-glass"
+      - title: "Moe Translate"
+        desc: "LLM 驱动的翻译PWA app"
+        url: "https://translate.epheia.moe"
+        icon: "fa-solid fa-language"
+      - title: "\u201C\U0001F630不出来\u201D表情包生成器"
+        desc: "没什么用的小玩意"
+        url: "./meme/"
+        icon: "fa-solid fa-box"
+      - title: "Renderer"
+        desc: "自用的小东西"
+        url: "./renderer/"
+        icon: "fa-solid fa-layer-group"
+
+
+  contact:
+    heading: "找到我"
+    links:
+      - icon: "fa-brands fa-github"
+        url: "https://github.com/epheiamoe"
+        isCopy: false
+      - icon: "fa-solid fa-envelope"
+        url: "mailto:c@desuwa.org"
+        isCopy: false
+
+  footer: "© 2025-2026 Epheia. 本页基于 <a href='https://github.com/miniyu157/home' class='hover:text-purple-400 transition-colors duration-300'>Yumeka 的开源项目</a> 改编，遵循 MIT 协议。"

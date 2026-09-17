@@ -1,0 +1,340 @@
+--2026-09-16 23:05:56--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/
+Resolving web.archive.org (web.archive.org)... 198.18.0.58
+Connecting to web.archive.org (web.archive.org)|198.18.0.58|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/index.html’
+
+     0K .........                                               296M=0s
+
+2026-09-16 23:05:57 (296 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/index.html’ saved [9623]
+
+--2026-09-16 23:05:58--  https://web.archive.org/web/20260604214329cs_/https://cdn.epheia.moe/v2/epheia.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214330cs_/https://cdn.epheia.moe/v2/epheia.css [following]
+--2026-09-16 23:06:00--  https://web.archive.org/web/20260604214330cs_/https://cdn.epheia.moe/v2/epheia.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdn.epheia.moe/v2/epheia.css’
+
+     0K .......... .......... .......... ...                    890K=0.04s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:00 (890 KB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdn.epheia.moe/v2/epheia.css’ saved [34650]
+
+--2026-09-16 23:06:01--  https://web.archive.org/web/20260604214329im_/https://cdn.epheia.moe/v2/favicon.ico
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214333im_/https://cdn.epheia.moe/v2/favicon.ico [following]
+--2026-09-16 23:06:03--  https://web.archive.org/web/20260604214333im_/https://cdn.epheia.moe/v2/favicon.ico
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329im_/https:/cdn.epheia.moe/v2/favicon.ico.html’
+
+     0K ...                                                     374M=0s
+
+2026-09-16 23:06:03 (374 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329im_/https:/cdn.epheia.moe/v2/favicon.ico.html’ saved [3917]
+
+--2026-09-16 23:06:05--  https://web.archive.org/web/20260604214329cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260605091402cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css [following]
+--2026-09-16 23:06:06--  https://web.archive.org/web/20260605091402cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css’
+
+     0K .                                                       168M=0s
+
+2026-09-16 23:06:07 (168 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css’ saved [1762]
+
+--2026-09-16 23:06:08--  https://web.archive.org/web/20260604214329cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604202035cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css [following]
+--2026-09-16 23:06:10--  https://web.archive.org/web/20260604202035cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css’
+
+     0K .                                                       119M=0s
+
+2026-09-16 23:06:10 (119 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css’ saved [1745]
+
+--2026-09-16 23:06:11--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/policy
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/ [following]
+--2026-09-16 23:06:15--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy.html’
+
+     0K ........                                                671M=0s
+
+2026-09-16 23:06:16 (671 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy.html’ saved [8441]
+
+--2026-09-16 23:06:17--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/policy/friendly.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/friendly.html [following]
+--2026-09-16 23:06:19--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/friendly.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/friendly.html’
+
+     0K ........                                                654M=0s
+
+2026-09-16 23:06:19 (654 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/friendly.html’ saved [8223]
+
+--2026-09-16 23:06:20--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/policy/disclaimer.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/disclaimer.html [following]
+--2026-09-16 23:06:22--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/disclaimer.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/disclaimer.html’
+
+     0K ........                                                513M=0s
+
+2026-09-16 23:06:22 (513 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/disclaimer.html’ saved [8606]
+
+--2026-09-16 23:06:24--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/policy/license.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/license.html [following]
+--2026-09-16 23:06:24--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/license.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/license.html’
+
+     0K ........                                                877M=0s
+
+2026-09-16 23:06:25 (877 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/license.html’ saved [9200]
+
+--2026-09-16 23:06:26--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/policy/privacy.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/privacy.html [following]
+--2026-09-16 23:06:27--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/privacy.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/privacy.html’
+
+     0K .........                                               801M=0s
+
+2026-09-16 23:06:27 (801 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/privacy.html’ saved [9244]
+
+--2026-09-16 23:06:28--  https://web.archive.org/web/20260604214329/https://nya.epheia.moe/cdn-cgi/l/email-protection
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2026-09-16 23:06:28 ERROR 404: NOT FOUND.
+
+--2026-09-16 23:06:29--  https://web.archive.org/web/20260604214329js_/https://nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214330js_/https://nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js [following]
+--2026-09-16 23:06:30--  https://web.archive.org/web/20260604214330js_/https://nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’
+
+     0K ..                                                      211M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:31 (211 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’ saved [2439]
+
+--2026-09-16 23:06:33--  https://web.archive.org/web/20260604214329js_/https://cdn.epheia.moe/v2/epheia.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214330js_/https://cdn.epheia.moe/v2/epheia.js [following]
+--2026-09-16 23:06:34--  https://web.archive.org/web/20260604214330js_/https://cdn.epheia.moe/v2/epheia.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/cdn.epheia.moe/v2/epheia.js’
+
+     0K .......... .                                            794M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:35 (794 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/cdn.epheia.moe/v2/epheia.js’ saved [11650]
+
+--2026-09-16 23:06:36--  https://web.archive.org/web/20260604214329js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604205412js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js [following]
+--2026-09-16 23:06:38--  https://web.archive.org/web/20260604205412js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js’
+
+     0K .......... .......... .......... .......... .......... 86.3K
+    50K .......... .......... .......... .......... .......... 97.2K
+   100K .......... ..........                                   723K=1.1s
+
+2026-09-16 23:06:39 (107 KB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js’ saved [122968]
+
+--2026-09-16 23:06:40--  https://web.archive.org/web/20260604214329js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214255js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447 [following]
+--2026-09-16 23:06:42--  https://web.archive.org/web/20260604214255js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447’
+
+     0K .......... .......... .......... ...                    880K=0.04s
+
+2026-09-16 23:06:42 (880 KB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214329js_/https:/static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447’ saved [34466]
+
+--2026-09-16 23:06:43--  https://web.archive.org/web/20260604214342cs_/https://cdn.epheia.moe/v2/epheia.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdn.epheia.moe/v2/epheia.css’
+
+     0K .......... .......... .......... ...                   1.47M=0.02s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:43 (1.47 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdn.epheia.moe/v2/epheia.css’ saved [34803]
+
+--2026-09-16 23:06:44--  https://web.archive.org/web/20260604214342im_/https://cdn.epheia.moe/v2/favicon.ico
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342im_/https:/cdn.epheia.moe/v2/favicon.ico.html’
+
+     0K ...                                                     353M=0s
+
+2026-09-16 23:06:44 (353 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342im_/https:/cdn.epheia.moe/v2/favicon.ico.html’ saved [4068]
+
+--2026-09-16 23:06:46--  https://web.archive.org/web/20260604214342cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260605091402cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css [following]
+--2026-09-16 23:06:48--  https://web.archive.org/web/20260605091402cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css’
+
+     0K .                                                       140M=0s
+
+2026-09-16 23:06:48 (140 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css’ saved [1762]
+
+--2026-09-16 23:06:49--  https://web.archive.org/web/20260604214342cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604202035cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css [following]
+--2026-09-16 23:06:50--  https://web.archive.org/web/20260604202035cs_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css’
+
+     0K .                                                       238M=0s
+
+2026-09-16 23:06:50 (238 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css’ saved [1745]
+
+--2026-09-16 23:06:51--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/cdn-cgi/l/email-protection
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2026-09-16 23:06:52 ERROR 404: NOT FOUND.
+
+--2026-09-16 23:06:53--  https://web.archive.org/web/20260604214342js_/https://nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’
+
+     0K ..                                                     39.6M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:54 (39.6 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/nya.epheia.moe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’ saved [2618]
+
+--2026-09-16 23:06:55--  https://web.archive.org/web/20260604214342js_/https://cdn.epheia.moe/v2/epheia.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/cdn.epheia.moe/v2/epheia.js’
+
+     0K .......... .                                           23.0M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:06:56 (23.0 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/cdn.epheia.moe/v2/epheia.js’ saved [11770]
+
+--2026-09-16 23:06:57--  https://web.archive.org/web/20260604214342js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604205412js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js [following]
+--2026-09-16 23:06:59--  https://web.archive.org/web/20260604205412js_/https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js’
+
+     0K .......... .......... .......... .......... ..........  557K
+    50K .......... .......... .......... .......... ..........  172K
+   100K .......... ..........                                  22.0M=0.4s
+
+2026-09-16 23:07:00 (314 KB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js’ saved [122968]
+
+--2026-09-16 23:07:01--  https://web.archive.org/web/20260604214342js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20260604214255js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447 [following]
+--2026-09-16 23:07:03--  https://web.archive.org/web/20260604214255js_/https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447’
+
+     0K .......... .......... .......... ...                   1.73M=0.02s
+
+2026-09-16 23:07:03 (1.73 MB/s) - ‘nya.epheia.moe/web.archive.org/web/20260604214342js_/https:/static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447’ saved [34466]
+
+--2026-09-16 23:07:04--  https://web.archive.org/web/20260604214342/https://nya.epheia.moe/policy/index.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2026-09-16 23:07:05 ERROR 404: NOT FOUND.
+
+FINISHED --2026-09-16 23:07:05--
+Total wall clock time: 1m 9s
+Downloaded: 22 files, 470K in 1.6s (290 KB/s)
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy.html... 13.
+12-1
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/disclaimer.html... 9.
+8-1
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/index.html... 14.
+13-1
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/privacy.html... 9.
+8-1
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329im_/https:/cdn.epheia.moe/v2/favicon.ico.html... 7.
+5-2
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214342im_/https:/cdn.epheia.moe/v2/favicon.ico.html... 8.
+6-2
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/license.html... 8.
+7-1
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329/https:/nya.epheia.moe/policy/friendly.html... 7.
+7-0
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css... nothing to do.
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css... nothing to do.
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdn.epheia.moe/v2/epheia.css... nothing to do.
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214342cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css... nothing to do.
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdn.epheia.moe/v2/epheia.css... nothing to do.
+Converting links in nya.epheia.moe/web.archive.org/web/20260604214329cs_/https:/cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css... nothing to do.
+Converted links in 14 files in 0.05 seconds.

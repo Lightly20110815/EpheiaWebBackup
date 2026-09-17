@@ -1,0 +1,153 @@
+--2026-09-16 23:05:43--  https://awa.desuwa.org/
+Resolving awa.desuwa.org (awa.desuwa.org)... 198.18.0.67
+Connecting to awa.desuwa.org (awa.desuwa.org)|198.18.0.67|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘awa.desuwa.org/awa.desuwa.org/index.html’
+
+     0K .......... .....                                       82.9K=0.2s
+
+Last-modified header missing -- time-stamps turned off.
+2026-09-16 23:05:44 (82.9 KB/s) - ‘awa.desuwa.org/awa.desuwa.org/index.html’ saved [15756]
+
+--2026-09-16 23:05:44--  https://cdn.tailwindcss.com/
+Resolving cdn.tailwindcss.com (cdn.tailwindcss.com)... 198.18.0.78
+Connecting to cdn.tailwindcss.com (cdn.tailwindcss.com)|198.18.0.78|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /3.4.17 [following]
+--2026-09-16 23:05:47--  https://cdn.tailwindcss.com/3.4.17
+Reusing existing connection to cdn.tailwindcss.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘awa.desuwa.org/cdn.tailwindcss.com/index.html’
+
+     0K .......... .......... .......... .......... ..........  219K
+    50K .......... .......... .......... .......... ..........  375K
+   100K .......... .......... .......... .......... ..........  590K
+   150K .......... .......... .......... .......... ..........  348K
+   200K .......... .......... .......... .......... .......... 1.49M
+   250K .......... .......... .......... .......... .......... 5.00M
+   300K .......... .......... .......... .......... ..........  376K
+   350K .......... .......... .......... .......... .......    1.19M=0.8s
+
+2026-09-16 23:05:48 (495 KB/s) - ‘awa.desuwa.org/cdn.tailwindcss.com/index.html’ saved [407279]
+
+--2026-09-16 23:05:48--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+Resolving cdnjs.cloudflare.com (cdnjs.cloudflare.com)... 198.18.0.79
+Connecting to cdnjs.cloudflare.com (cdnjs.cloudflare.com)|198.18.0.79|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css’
+
+     0K .......... .......... .......... .......... ..........  149K
+    50K .......... .......... .......... .......... ..........  753K
+   100K                                                        11.9K=0.4s
+
+2026-09-16 23:05:50 (250 KB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css’ saved [103009]
+
+--2026-09-16 23:05:51--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 117852 (115K) [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2’
+
+     0K .......... .......... .......... .......... .......... 43% 1.40M 0s
+    50K .......... .......... .......... .......... .......... 86% 2.94M 0s
+   100K .......... .....                                      100% 12.4M=0.05s
+
+2026-09-16 23:05:51 (2.13 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2’ saved [117852/117852]
+
+--2026-09-16 23:05:52--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.ttf
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.ttf’
+
+     0K .......... .......... .......... .......... ..........  500K
+    50K .......... .......... .......... .......... .......... 11.9M
+   100K .......... .......... .......... .......... ..........  910K
+   150K .......... .......... .......... .......... ..........  474K
+   200K ....                                                   84.5K=0.3s
+
+2026-09-16 23:05:53 (772 KB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.ttf’ saved [209128]
+
+--2026-09-16 23:05:54--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.woff2
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25392 (25K) [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.woff2’
+
+     0K .......... .......... ....                            100% 1.09M=0.02s
+
+2026-09-16 23:05:54 (1.09 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.woff2’ saved [25392/25392]
+
+--2026-09-16 23:05:54--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.ttf
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.ttf’
+
+     0K .......... .......... .......... .......... .......... 17.3M
+    50K .......... ......                                       151K=0.1s
+
+2026-09-16 23:05:55 (599 KB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-regular-400.ttf’ saved [67860]
+
+--2026-09-16 23:05:55--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.woff2
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 156400 (153K) [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.woff2’
+
+     0K .......... .......... .......... .......... .......... 32%  387K 0s
+    50K .......... .......... .......... .......... .......... 65% 14.7M 0s
+   100K .......... .......... .......... .......... .......... 98% 11.7M 0s
+   150K ..                                                    100% 54.7K=0.1s
+
+2026-09-16 23:05:55 (1.09 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.woff2’ saved [156400/156400]
+
+--2026-09-16 23:05:56--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.ttf
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.ttf’
+
+     0K .......... .......... .......... .......... .......... 1.19M
+    50K .......... .......... .......... .......... .......... 24.9M
+   100K .......... .......... .......... .......... .......... 3.21M
+   150K .......... .......... .......... .......... .......... 8.09M
+   200K .......... .......... .......... .......... .......... 2.76M
+   250K .......... .......... .......... .......... .......... 26.7M
+   300K .......... .......... .......... .......... .......... 3.16M
+   350K .......... .......... .......... .......... .......... 10.8M
+   400K ..........                                             9.23M=0.1s
+
+2026-09-16 23:05:56 (3.82 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-solid-900.ttf’ saved [420332]
+
+--2026-09-16 23:05:57--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.woff2
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4792 (4.7K) [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.woff2’
+
+     0K ....                                                  100%  508M=0s
+
+2026-09-16 23:05:57 (508 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.woff2’ saved [4792/4792]
+
+--2026-09-16 23:05:57--  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.ttf
+Reusing existing connection to cdnjs.cloudflare.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.ttf’
+
+     0K ..........                                              861M=0s
+
+2026-09-16 23:05:57 (861 MB/s) - ‘awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-v4compatibility.ttf’ saved [10832]
+
+FINISHED --2026-09-16 23:05:57--
+Total wall clock time: 15s
+Downloaded: 11 files, 1.5M in 2.1s (721 KB/s)
+Converting links in awa.desuwa.org/awa.desuwa.org/index.html... 8.
+2-6
+Converting links in awa.desuwa.org/cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css... 20.
+20-0
+Converted links in 2 files in 0.008 seconds.

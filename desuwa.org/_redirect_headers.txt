@@ -1,0 +1,23 @@
+HTTP/2 301 
+date: Wed, 16 Sep 2026 15:11:36 GMT
+content-type: text/html; charset=UTF-8
+location: https://awa.desuwa.org/
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u%2BlNoe0PhVHB32wSPEAjW6LmJoOYyZg2GGLQYUDmG%2F%2FvWsc72K4G3P4CGOOmbjPRL4a6ntUyqCjq7ih6tNp1ABcs53fHe8zFNK8SH9ujykXYJPvcpV2DoMPssnut"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a3c0ce003a45d5f2-SJC
+
+HTTP/2 200 
+date: Wed, 16 Sep 2026 15:11:37 GMT
+content-type: text/html; charset=utf-8
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H%2FP8FMX6lUSbkk1FPeL6EVAc3ZAIByOIXlgor7dJEn1Fn0mVERqYerRnxB5HQtblpYQJ0wMIws7WSd5kecHqPqjH3EKSjWS%2B5ZNif%2FcsBnWY%2F9D0cAzI0lwhXbREiXRvVw%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: a3c0ce048e24ca3e-SJC
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,17 @@
+# ---------------------------------------------------------------------------
+# 表情包生成器 (meme/index.html) 配置
+# ---------------------------------------------------------------------------
+meme:
+  params:
+    text: "不出来"
+    brightness: 100
+    saturation: 80
+    blur: 4
+    gamma: 1.1
+    glow: 4
+    iconSize: 10
+    iconBlur: 0.7
+    bottomBarHeight: 100
+    contentScale: 1.1
+    relativeFontSize: 60
+    spacing: 8

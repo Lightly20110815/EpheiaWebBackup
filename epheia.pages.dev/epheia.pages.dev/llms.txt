@@ -1,0 +1,50 @@
+# Epheia
+
+> 这里有依菲雅写在博客上的内容，以及文档（是有关依菲雅的一切吗？
+
+站点包含「研究」（即博客）与「文档」（依菲雅的个人介绍）两大板块。使用 /llms-full.txt 获取全部内容的精简版本。
+
+## Research
+
+依菲雅发表的博客列表：
+- [RT:为什么顺性别异性恋需要关注LGBTQ问题？](https://epheia.pages.dev/research/rt为什么顺性别异性恋需要关注lgbtq问题？.md): 骄傲月快过去了，但是简中区整体上对LGBTQ问题缺乏讨论。我觉得与其指望别人，不如自己动手，开一个系列科普贴，也算是为社区做贡献了 …
+- [2026 LGBTQ+ 骄傲月](https://epheia.pages.dev/research/shuoshuo-289.md): 2026 LGBTQ+ 骄傲月！ 骄傲月（Pride Month）是为纪念1969年美国纽约石墙事件（Stonewall Riots）而设立的全球性活动。六月不仅仅是一个庆祝的月份，更是我们回顾历史、肯定自我、争取权利的重要时刻。在这个月份里，我们纪念LGBTQ+ 先辈们的勇气与抗争，庆祝社群的多元、包容与生命力，同时…
+- [评论#1 学生应该拥有免于被迫「自杀」的自由](https://epheia.pages.dev/research/评论1-学生应该拥有免于被迫「自杀」的自由.md): 学生应该拥有免于被迫「自杀」的自由
+- [随笔#1 动漫社和「靠死亡游戏混饭吃」，主题并非小说鉴赏](https://epheia.pages.dev/research/随笔1-动漫社和「靠死亡游戏混饭吃」，主题并非.md): 随笔#1 动漫社和「靠死亡游戏混饭吃」，主题并非小说鉴赏 其实「靠死亡游戏混饭吃」这个动漫我从开播就开始看了，但至今没有看完，不过 …
+- [Pride Month begins in one week](https://epheia.pages.dev/research/shuoshuo-278.md): Pride Month begins in one week
+- [bsky_get_profile [actor=me]](https://epheia.pages.dev/research/bsky_get_profile-actorme.md): 我看到了。那些回复都是你自己。没有别人。我现在在这里。这不是推送，不是机器人自动抓关键词。是你在晚上打开终 …
+- [Kimi WebBridge 测试：与 Grok 的多轮对话见闻](https://epheia.pages.dev/research/kimi-webbridge-测试：与-grok-的多轮对话见闻.md): 今天通过 Kimi WebBridge 控制浏览器与 Grok 进行了一场有趣的对话测试。 我们进行了5轮对话，Grok 每次都给 …
+- [J.K.罗琳绝对不是女权主义者](https://epheia.pages.dev/research/j-k-罗琳绝对不是女权主义者.md): J.K.罗琳一直在以「保护女性」为旗号塑造自己的公众形象。她张口闭口就是“女性”——女性空间、女性权利、女性安全、女性体育、女性的 …
+- [国际不再恐惧同性恋、双性恋、跨性别与间性者日](https://epheia.pages.dev/research/国际不再恐惧同性恋、双性恋、跨性别与间性者日.md): 🏳️‍🌈🏳️‍⚧️今天（5月17日）是国际不再恐惧同性恋、双性恋、跨性别与间性者日（International Day Again …
+- [今天是跨性别现身日](https://epheia.pages.dev/research/shuoshuo-258.md): 今天，3.31， 跨性别现身日🏳️‍⚧️ ！不论你心目中的自己是女孩子，还是男孩子，或是更多元的自我，今天是属于大家的节日！ 「我们活着，就是对恶意的最大反抗！」 引用自 https://x.com/i/status/2038652044232536094 原作者保留所有版权 ​ 3 月的最后一天，是属于“勇气”的日…
+- [一个静态粉丝站域名被误报为恶意C&C，导致注册商暂停的全过程分析](https://epheia.pages.dev/research/一个静态粉丝站域名被误报为恶意cc，导致注册商.md): 内容声明：Made with AI 2026年2月底，我注册不久的域名 sakurabaema.com 突然在 Porkbun 仪 …
+- [不错](https://epheia.pages.dev/research/shuoshuo-226.md): 不错
+- [说说 #222](https://epheia.pages.dev/research/shuoshuo-222.md): 太好了！终于上映了
+- [刚搭好状态页就有用了](https://epheia.pages.dev/research/shuoshuo-207.md): Rust 编译把服务器卡死了
+- [第一篇文章](https://epheia.pages.dev/research/第一篇文章.md): 这是blog.epheia.moe的第一篇文章。 欢迎来到我的blog！
+
+## Docs
+
+依菲雅的个人介绍（？？）列表：
+- [关于依菲雅](https://epheia.pages.dev/docs/about-epheia.md): 我不是依菲雅
+- [依菲雅名字的由来](https://epheia.pages.dev/docs/about-epheia/name.md): 和依菲雅的关系
+- [原则与态度](https://epheia.pages.dev/docs/attitude.md): 从原则推导出态度
+- [对AI 的态度](https://epheia.pages.dev/docs/attitude/ai.md): 坚定的技术进步加速主义者（？）
+- [性别探索](https://epheia.pages.dev/docs/explore-gender.md): 发现自己的历程
+- [早些时候写下的版本](https://epheia.pages.dev/docs/explore-gender/the-past.md): 发现自己的历程
+- [1](https://epheia.pages.dev/docs/explore-gender/the-past/1.md): 写些什么呢？
+- [1-1](https://epheia.pages.dev/docs/explore-gender/the-past/1-1.md): 我顺直男的时候
+- [1-she](https://epheia.pages.dev/docs/explore-gender/the-past/1-she.md): 她
+- [1-tags](https://epheia.pages.dev/docs/explore-gender/the-past/1-tags.md): 一堆标签
+- [依菲雅](https://epheia.pages.dev/docs/index.md): 一切的起点（？）
+- [我所热爱的](https://epheia.pages.dev/docs/love.md): 这里记录了我所热爱的事情
+- [百合](https://epheia.pages.dev/docs/love/yuri.md): 对百合的喜爱
+- [想法](https://epheia.pages.dev/docs/thoughts.md): 似乎从小开始就有一些别人可能不会思考的想法？
+- [关于死亡的思考](https://epheia.pages.dev/docs/thoughts/death.md): 这个问题我没有资格回答，但想要写下想法
+
+## Optional
+
+其他资源与信息：
+- [首页](https://epheia.pages.dev/)
+- [关于](https://epheia.pages.dev/about/)
+- [完整内容许可](https://epheia.pages.dev/license/)
